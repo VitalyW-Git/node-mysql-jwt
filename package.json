@@ -1,0 +1,23 @@
+{
+  "name": "node-mysql-jwt",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_OPTIONS='--experimental-specifier-resolution=node --trace-warnings' node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "keyv": "^4.5.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.2"
+  }
+}
